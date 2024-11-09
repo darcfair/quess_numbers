@@ -16,7 +16,7 @@ while guesses_made < 6:
     # получаем число от пользователя
     guess = int(input('Введи число: '))
    
-    # увеличиваем счетчик числа попыток
+    
     guesses_made += 1
 
     if guess < number:
